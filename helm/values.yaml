@@ -1,0 +1,11 @@
+imagePullSecrets:
+  - name: ocpregcred
+imageCredentials:
+  registry: image-registry.openshift-image-registry.svc:5000
+  username: developer
+  password: sha256~PWSCR95ysbyDP8e4843kVbZEtFokJdCLqavBLKxgh34
+appName: fastapi
+ports:
+  port: 8000
+  targetPort: 8000
+namespace: helm-example
