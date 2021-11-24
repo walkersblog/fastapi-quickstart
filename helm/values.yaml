@@ -8,4 +8,4 @@ appName: fastapi
 ports:
   port: 8000
   targetPort: 8000
-namespace: helm-example
+namespace: argocd-example
